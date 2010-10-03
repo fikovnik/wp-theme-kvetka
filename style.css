@@ -270,7 +270,7 @@ ol#comments {
 }
 
 #commentform input, textarea {
-    margin: 1em;
+    margin: 1em 1em 1em 0em;
     width: 30em;
 }
 

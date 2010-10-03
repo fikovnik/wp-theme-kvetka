@@ -31,7 +31,7 @@
           <?php wp_list_cats('sort_column=name&hierarchical=0'); ?>
         </ul>
 
-        <h2><a href="/search">search</a></h2>
+        <h2><a href="<a href="<?echo get_settings('home'); ?>/search">search</a></h2>
 
         <h2><a href="<?php bloginfo('rss2_url'); ?>">rss</a></h2>
 

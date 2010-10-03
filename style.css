@@ -282,20 +282,59 @@ ol#comments {
     width: 12em;
 }
 
-#gallery-intro {
-    width: 14em;
+div#gallery-intro-two {
+    -webkit-column-count: 2;
+    -webkit-column-width: 20em;
+    -webkit-column-gap: 2em;
+    -moz-column-count: 2;
+    -moz-column-width: 20em;
+    -moz-column-gap: 2em;
+
+    height: 100%;
+    width: 44em;
     float: left;
+    text-align: justify;
+    line-height: 1.5em;
     margin-right: 2em;
 }
 
-#gallery {
-    margin-top: -1em;
-    margin-left: 16em;
+div#gallery-intro {
+    height: 100%;
+    width: 20em;
+    float: left;
+    text-align: justify;
+    line-height: 1.5em;
+    margin-right: 2em;
 }
 
-#gallery div.title {
+#gallery-intro p {
+    margin-top: 1em;
+}
+
+#gallery-intro-two p {
+    margin-top: 1em;
+}
+
+div#gallery {
+    float: left;
+    width: 40000px;
+}
+
+div#gallery div.photo {
+    float: left;
+    margin-right: 75px;
+    margin-top: -1em;
+}
+
+div#gallery div.title {
     padding: 1em 0em 1em 1em;
 }
+
+div#gallery #apology {
+    font-size: 13px;
+    font-family: Lucidatypewriter, monospace
+}
+
 
 #searchform {
     margin-top: 2em;
